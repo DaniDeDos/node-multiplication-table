@@ -1,12 +1,15 @@
 const fs = require('fs')
 const colors = require('colors')
 
-const crearTabla = async (base = 5, listar = false) => {
+const crearTabla = async (base = 5, hasta = 10, listar = false) => {
     try {
         let salida = '';
+        let consola = '';
 
-        for (let i = 1; i <= 10; i++) {
-            salida += `${base} ${'x'.red} ${i} ${'='.red} ${base * i}\n`
+
+        for (let i = 1; i <= hasta; i++) {
+            salida += `${base} x ${i} = ${base * i}\n`
+            consola += `${base} ${'x'.red} ${i} ${'='.red} ${base * i}\n`
         }
 
         if (listar) {
@@ -14,7 +17,7 @@ const crearTabla = async (base = 5, listar = false) => {
             console.log('  Tabla del: ', colors.blue(base))
             console.log('========================');
 
-            console.log(salida);
+            console.log(consola);
         }
 
         fs.writeFileSync(`tabla-${base}.txt`, salida)
