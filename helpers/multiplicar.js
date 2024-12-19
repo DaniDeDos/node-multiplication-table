@@ -14,13 +14,13 @@ const crearTabla = async (base = 5, hasta = 10, listar = false) => {
 
         if (listar) {
             console.log('========================');
-            console.log('  Tabla del: ', colors.blue(base))
+            console.log('     Tabla del: ', colors.blue(base))
             console.log('========================');
 
             console.log(consola);
         }
 
-        fs.writeFileSync(`tabla-${base}.txt`, salida)
+        fs.writeFileSync(`./salida/tabla-${base}.txt`, salida)
         return (`tabla-${base}.txt`)
     } catch (err) {
         throw err
