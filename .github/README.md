@@ -1,7 +1,7 @@
 # Tabla De Multiplicar
 
 <p align="center">
-<img src="https://img.shields.io/badge/Node-brightgreen?style=flat&logo=nodedotjs&logoColor=FFFFFF&labelColor=212830&color=5FA04E" />
+<img src="https://img.shields.io/badge/Node-brightgreen?style=flat&logo=nodedotjs&logoColor=FFFFFF&labelColor=5FA04E&color=212830" />
 </p>
 
 CLI que proporciona una solución versátil y flexible para generar tablas de multiplicar
