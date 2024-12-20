@@ -1,5 +1,5 @@
 # compiled output
 node_modules/
-salida/*
+/salida/*.txt
 
 *bun.lockb
