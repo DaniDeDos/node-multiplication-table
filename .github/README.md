@@ -1,6 +1,8 @@
 # Tabla De Multiplicar
 
-<img src="https://img.shields.io/badge/Node-brightgreen?style=flat&logo=nodedotjs&logoColor=%20%23ffffff&labelColor=%2387CF3E&color=5FA04E" />
+<p align="center">
+<img src="https://img.shields.io/badge/Node-brightgreen?style=flat&logo=nodedotjs&logoColor=FFFFFF&labelColor=212830&color=5FA04E" />
+</p>
 
 CLI que proporciona una solución versátil y flexible para generar tablas de multiplicar
 y las exporta a archivos de texto.
