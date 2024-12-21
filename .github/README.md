@@ -1,6 +1,6 @@
-<h1 align="center">Tabla De Multiplicar</h1>
-
-<img align="center" src="../assets/demo.png" />     
+<p align="center">
+  <img src="../assets/demo.png" />     
+</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Bun-brightgreen?style=flat&logo=bun&logoColor=FFFFFF&labelColor=000000&color=212830" />
@@ -23,49 +23,43 @@
 - 🏗️ Formatea el resultado con colores.
 - 📝 Escribe el resultado en un archivo de texto personalizado y retorna el nombre del propio archivo generado.
 
-# Inicio del Proyecto
-
-## Requisito previo
-
-- Tener configurado un entorno con `Node.js` para instalar las dependencias necesarias.
-
-> [!TIP]
-> Bun es una alternativa moderna y eficiente a npm y yarn para la gestión de paquetes en proyectos javascript.
->
-> ```shell
->   curl -fsSL https://bun.sh/install | bash
-> ```
-
 ## Instalación
+
+- Clone el repo.
+
+```shell
+  git clone node-multiplication-table
+```
 
 - Abre tu terminal o línea de comandos.
 - Navega hasta el directorio donde se encuentra el proyecto.
 - Ejecuta el siguiente comando para instalar las dependencias.
 
 ```shell
-  bun install
+  npm install
 ```
 
-> Si estás utilizando herramientas de gestión de paquetes como `yarn` o `npm` sustituirlo por `bun`.
+> Reacuerde tener configurado un entorno con `Node.js` que le instalar las dependencias necesarias.
 
-### Run
+### Rápido Start
 
 - En el directorio donde se encuentra el proyecto ejecuta el siguiente comando para levantarlo.
 
-> - Si tu gestor de paquetes es `yarn` o `npm` sustituirlo por `bun`.
-
 ```shell
-  bun dev
+  npm start -b 5
 ```
+
+> [!TIP]
+> Bun es una alternativa moderna y eficiente a npm y yarn para la gestión de paquetes en proyectos javascript.
+
+- [Instalar Bun.](https://bun.sh/docs/cli/install)
+- [Ver Documentación.](https://bun.sh/docs/cli/install)
 
 ### Creditos
 
-  <a href="https://github.com/Klerith/Klerith">
+<a href="https://github.com/Klerith/Klerith">
     Fernando Herrera
-  </a>
-  <h4 align="right">
-
-  <a  align="right" href="https://github.com/Klerith/Klerith">
-    ihasashi
-  </a>
+</a>
+<h4 align="right">
+    Made with ❤️
 </h4>
