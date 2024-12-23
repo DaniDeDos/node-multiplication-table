@@ -57,7 +57,7 @@
 
 ### Creditos
 
-<a href="https://github.com/Klerith/Klerith">
+<a href="https://github.com/Klerith">
     Fernando Herrera
 </a>
 <h4 align="right">
