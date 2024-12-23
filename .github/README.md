@@ -39,8 +39,6 @@
   npm install
 ```
 
-> Reacuerde tener configurado un entorno con `Node.js` que le instalar las dependencias necesarias.
-
 ### Rápido Start
 
 - En el directorio donde se encuentra el proyecto ejecuta el siguiente comando para levantarlo.
@@ -48,6 +46,8 @@
 ```shell
   npm start -b 5
 ```
+
+> Reacuerde tener configurado un entorno con `Node.js` que le instalar las dependencias necesarias.
 
 > [!TIP]
 > Bun es una alternativa moderna y eficiente a npm y yarn para la gestión de paquetes en proyectos javascript.
